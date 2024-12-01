@@ -1,0 +1,12 @@
+torch
+data-gemma
+transformers
+gradio
+
+torch
+data-gemma
+google-colab
+transformers
+textwrap
+ipython
+gradio
