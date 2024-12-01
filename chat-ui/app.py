@@ -4,7 +4,7 @@ from streamlit_chat import message
 import certifi
 
 # Define the API URL
-API_URL = "http://prosperchain.co.uk/api/v1/prediction/123"
+API_URL = "https://prosperchain.co.uk/api/v1/prediction/123"
 
 
 def query(payload: dict) -> dict | None:
@@ -18,7 +18,7 @@ def query(payload: dict) -> dict | None:
         dict | None: The API's response as a dictionary or None if an error occurs.
     """
     try:
-        response = requests.post(API_URL, json=payload)
+        response = requests.post(API_URL, json=payload, verify=False)
         response.raise_for_status()
     except requests.exceptions.HTTPError as errhtp:
         st.write("HTTP Error: ", errhtp)
