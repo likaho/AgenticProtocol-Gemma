@@ -1,6 +1,7 @@
 import requests
 import streamlit as st
 from streamlit_chat import message
+import certifi
 
 # Define the API URL
 API_URL = "https://prosperchain.co.uk/api/v1/prediction/123"
