@@ -30,10 +30,6 @@ Welcome to Agentic Protocol - An open platform for the new AI economy.  It is a 
   
   
 
-## Technologies Were Used
-
-The project leverages three key components: Filecoin, Citrea, and the Galadriel network.
-
 **Microservice Architecture**
 <img width="100%" src="https://github.com/likaho/AgenticProtocol/blob/main/images/microservice_architecture.gif">
 
