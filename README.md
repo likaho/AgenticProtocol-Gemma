@@ -19,7 +19,7 @@ Welcome to Agentic Protocol - An open platform for the new AI economy.  It is a 
 
 1.  **chat-ui**: This folder is dedicated to the chat web client.
 
-2.  **llm-server**: This folder contains an Express web service that handles requests from llm-proxy-server service. It forwards prompts to the Galadriel network.
+2.  **llm-server**: This folder contains an Express web service that handles requests from llm-proxy-server service. It forwards prompts to the Gemma2-27b model.
 
 3.  **agents**: Here, you'll find all agents using DataGemma.
 
@@ -29,10 +29,6 @@ Welcome to Agentic Protocol - An open platform for the new AI economy.  It is a 
 
   
   
-
-## Technologies Were Used
-
-The project leverages three key components: Filecoin, Citrea, and the Galadriel network.
 
 **Microservice Architecture**
 <img width="100%" src="https://github.com/likaho/AgenticProtocol/blob/main/images/microservice_architecture.gif">
